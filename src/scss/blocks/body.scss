@@ -4,4 +4,14 @@ html {
 body {
   background-color: #111;
   font-family: sans-serif;
+  color: white;
+}
+
+.ej4 {
+  margin: 1em;
+
+  & > div {
+    padding: 1em;
+    background-color: var(--bg-color);
+  }
 }

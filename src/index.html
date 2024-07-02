@@ -9,7 +9,47 @@
     <title>Vite Template</title>
   </head>
   <body>
-    <h1>Hola</h1>
+    <!-- EJ1 -->
+    <button id="btn1">Añadir Elementos</button>
+    <ul id="list">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+
+    <!-- EJ2 -->
+    <div id="new-header">
+      <label id="label-range">1</label>
+      <input type="range" id="range" min="1" max="6" step="1" value="1" />
+      <button id="btn-range">Generar Encabezado</button>
+    </div>
+
+    <!-- EJ3 -->
+    <h1>Posts</h1>
+    <h2>Post de ejemplo</h2>
+    <!-- Contenedor de posts -->
+    <div id="post-container">
+      <!-- Post independiente -->
+      <div>
+        <span>Author: Dorian</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <!-- Fin del post independiente -->
+    </div>
+    <!-- Fin del contenedor de posts -->
+    <form>
+      <div>
+        <label>Author</label>
+        <input id="author" type="text" />
+      </div>
+      <div>
+        <label>Message:</label>
+        <textarea id="message"></textarea>
+      </div>
+      <button id="send">Send Post</button>
+    </form>
+
+    <!-- EJ4 -->
+    <div id="ej4" class="ej4"></div>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
