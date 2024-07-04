@@ -5,6 +5,7 @@ body {
   background-color: #111;
   font-family: sans-serif;
   color: white;
+  padding: 1rem;
 }
 
 .ej4 {
@@ -20,4 +21,12 @@ body {
   display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
+}
+
+.cards {
+  & > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
 }
